@@ -45,3 +45,7 @@ h1{
     float: right;
 
 }
+
+.recipe1 img:hover, .recipe2 img:hover, .recipe3 img:hover{
+    background-color: orange;
+}
