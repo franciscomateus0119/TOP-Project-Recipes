@@ -1,0 +1,163 @@
+body{
+    background-color: #ffe4e2;
+}
+
+h1{
+    background-color: #b6110e;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 10px 50px 10px;
+    color: white;
+}
+
+.home{
+    text-decoration: none;
+}
+.sidebar{
+    height: 450px;
+    width: 0px;
+    background: white;
+    margin-left: 400px;
+    
+    position: relative;
+    
+}
+.recipes{
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: absolute;
+    top: 50%;
+    margin-top: -160px;
+    background-color: rgba(27, 27, 27, 0.50);
+    
+}
+
+.recipe1 img{
+    background-color: #ffcb76;
+    padding: 10px;
+    max-width: 100px;
+    
+}
+
+.recipe2 img{
+    background-color: #ff6501;
+    padding: 10px;
+    max-width: 100px;
+    
+}
+
+.recipe3 img{
+    background-color: #ffcb76;
+    padding: 10px;
+    max-width: 100px;
+    
+}
+
+.recipe1 img:hover{
+    background-color: #ff6501;
+
+}
+
+.recipe3 img:hover{
+    background-color: #ff6501;
+
+}
+
+.maincontent{
+    border: 1px solid black;
+    background: url(../source/primerib.jpg);
+    background-size: contain;
+    display: flex;
+    
+    width: 500px;
+    height: 500px;
+    
+    float:right;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -450px;
+} 
+
+.list-container{
+    
+    position: absolute;
+    width: 400px;
+    height: 502px;
+    background: #ffcb76;
+    border: 1px solid gray;
+    margin-left: 1250px;
+    margin-top: -450px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-list{
+    font-size: 24px;
+    text-align: left;
+    text-indent: 10px;
+    float:left;
+}
+.recipe-list li{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.ordered-list-container{
+    
+    position: absolute;
+    width: 1250px;
+    height: 250px;
+    background: #fff3d9;
+    border: 1px solid gray;
+    margin-left: 400px;
+    margin-top: 65px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ordered-list-container li{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+
+footer{
+    display: flex;
+    clear: both;
+    background-color: #b6110e;
+    margin-top: 330px;
+    margin-left: 14px;
+    bottom:0;
+    width: 99%;
+    height:70px;   /* Height of the footer */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer img{
+    
+    flex: 0 0 60px;
+    width: 55px;
+    height: 55px;
+}
+
+footer p{
+    color: white;
+    font-size: 24px;
+    float: left;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+footer img{
+    float: left;
+}
+
