@@ -34,7 +34,7 @@ h1{
 }
 
 .recipe1 img{
-    background-color: #ffcb76;
+    background-color: #ff6501;
     padding: 10px;
     max-width: 100px;
     
@@ -54,10 +54,6 @@ h1{
     
 }
 
-.recipe1 img:hover {
-    background-color: #ff6501;
-}
-
 .recipe2 img:hover{
     background-color: #ff6501;
 
@@ -70,7 +66,7 @@ h1{
 
 .maincontent{
     border: 1px solid black;
-    background: #ffcb76;
+    background: url(../source/slicedmeatloaf.jpg);
     background-size: contain;
     display: flex;
     
@@ -81,20 +77,55 @@ h1{
     position: absolute;
     margin-left: 700px;
     margin-top: -450px;
+} 
+
+.list-container{
     
+    position: absolute;
+    width: 400px;
+    height: 502px;
+    background: #ffcb76;
+    border: 1px solid gray;
+    margin-left: 1250px;
+    margin-top: -450px;
     text-align: center;
     align-items: center;
     justify-content: center;
-
-    
-} 
-
-
-.texto{
-    flex: 0 0 400px;
-    font-size: 48px;
-    
 }
+
+.recipe-list{
+    font-size: 24px;
+    text-align: left;
+    text-indent: 10px;
+    float:left;
+}
+.recipe-list li{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.ordered-list-container{
+    
+    position: absolute;
+    width: 1250px;
+    height: 250px;
+    background: #fff3d9;
+    border: 1px solid gray;
+    margin-left: 400px;
+    margin-top: 75px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ordered-list-container li{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
 
 footer{
     display: flex;
