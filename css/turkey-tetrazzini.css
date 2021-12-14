@@ -130,7 +130,7 @@ h1{
 footer{
     display: flex;
     clear: both;
-    background-color: #b6110e;
+    background-color: rgb(182,17,14,0.10);
     margin-top: 330px;
     margin-left: 14px;
     bottom:0;
@@ -147,15 +147,9 @@ footer img{
     flex: 0 0 60px;
     width: 55px;
     height: 55px;
+    margin-top: 8px;
 }
 
-footer p{
-    color: white;
-    font-size: 24px;
-    float: left;
-    margin-right: 25px;
-    margin-top: 25px;
-}
 
 footer img{
     float: left;
