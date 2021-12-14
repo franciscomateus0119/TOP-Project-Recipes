@@ -10,6 +10,9 @@ h1{
     color: white;
 }
 
+.home{
+    text-decoration: none;
+}
 .sidebar{
     height: 450px;
     width: 0px;
@@ -83,10 +86,6 @@ h1{
 } 
 
 
-.maincontent:hover{
-    background: white;
-}
-
 .texto{
     flex: 0 0 400px;
     font-size: 48px;
@@ -94,21 +93,35 @@ h1{
 }
 
 footer{
+    display: flex;
     clear: both;
-    background-color: whitesmoke;
-    position:absolute;
+    background-color: #b6110e;
+    position: absolute;
     bottom:0;
-    width:100%;
-    height:60px;   /* Height of the footer */
-    align-content: center;
+    width: 99%;
+    height:70px;   /* Height of the footer */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 
 }
 
+footer img{
+    
+    flex: 0 0 60px;
+    width: 55px;
+    height: 55px;
+}
+
 footer p{
+    color: white;
+    font-size: 24px;
     float: left;
     margin-right: 25px;
+    margin-top: 25px;
 }
 
 footer img{
     float: left;
 }
+
