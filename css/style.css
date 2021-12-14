@@ -10,40 +10,76 @@ h1{
     color: white;
 }
 
+.sidebar{
+    height: 450px;
+    width: 0px;
+    background: white;
+    margin-left: 10px;
+    position: relative;
+    
+}
+.recipes{
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: absolute;
+    top: 50%;
+    margin-top: -185px;
+    background-color: rgba(27, 27, 27, 0.50);
+    float: left;
+    
+}
+
 .recipe1 img{
     background-color: #ffcb76;
     padding: 10px;
-    float: left;
-
-
+    max-width: 100px;
+    
 }
 
 .recipe2 img{
     background-color: #ffcb76;
     padding: 10px;
-    float: left;
-
-
+    max-width: 100px;
+    
 }
 
 .recipe3 img{
     background-color: #ffcb76;
     padding: 10px;
+    max-width: 100px;
+    
+}
 
+.recipe1 img:hover{
+    background-color: #ff6501;
     
 
 }
 
-.responsive{
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-    min-width: 150px;
-    margin: 0 15px;
+.recipe2 img:hover{
+    background-color: #ff6501;
+
 }
 
-.recipe1 img:hover, .recipe2 img:hover, .recipe3 img:hover{
+.recipe3 img:hover{
     background-color: #ff6501;
+
+}
+
+
+.maincontent{
+    background: url(../source/primerib.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    
+    margin-left: 50px;
+} 
+
+
+.maincontent:hover{
+    background: white;
 }
 
 footer{
