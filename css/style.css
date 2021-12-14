@@ -14,7 +14,8 @@ h1{
     height: 450px;
     width: 0px;
     background: white;
-    margin-left: 10px;
+    margin-left: 500px;
+    
     position: relative;
     
 }
@@ -24,9 +25,8 @@ h1{
     padding-right: 4px;
     position: absolute;
     top: 50%;
-    margin-top: -185px;
+    margin-top: -160px;
     background-color: rgba(27, 27, 27, 0.50);
-    float: left;
     
 }
 
@@ -51,10 +51,8 @@ h1{
     
 }
 
-.recipe1 img:hover{
+.recipe1 img:hover {
     background-color: #ff6501;
-    
-
 }
 
 .recipe2 img:hover{
@@ -69,17 +67,30 @@ h1{
 
 
 .maincontent{
-    background: url(../source/primerib.jpg);
+    border: 1px solid black;
+    background: #ffcb76;
+    display: flex;
     width: 500px;
     height: 500px;
     background-size: contain;
+    float:left;
+    position: inherit;
+    margin-left: 750px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     
-    margin-left: 50px;
 } 
 
 
 .maincontent:hover{
     background: white;
+}
+
+.texto{
+    flex: 0 0 400px;
+    font-size: 48px;
+    
 }
 
 footer{
