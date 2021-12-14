@@ -100,7 +100,8 @@ footer{
     display: flex;
     clear: both;
     background-color: #b6110e;
-    position: absolute;
+    margin-top: 330px;
+    margin-left: 14px;
     bottom:0;
     width: 99%;
     height:70px;   /* Height of the footer */
